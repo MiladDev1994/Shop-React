@@ -1,0 +1,63 @@
+.coinBox{
+    width: 800px;
+    height: 100px;
+    background-color: #747474;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.15);
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.coinBox img{
+    height: 100%;
+}
+.coinBox h5{
+    width: 150px;
+}
+.coinBox h4{
+    width: 130px;
+}
+
+
+
+
+
+.mainBox{
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.mainBox input{
+    margin: auto;
+    width: 350px;
+    height: 40px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    background-color: #5a5a5a;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 10px 20px rgba(0, 67, 44, 0.54);
+    font-size: 22px;
+    font-weight: 600;
+}
+
+input::placeholder{
+    color: #b9b9b9;
+}
+
+input:focus{
+    outline: 1px solid #00b07f;
+}
+
+
+.green{
+    color: #00dc84;
+}
+.red{
+    color: #ff5757;
+}

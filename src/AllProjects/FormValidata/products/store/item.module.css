@@ -1,0 +1,92 @@
+.ImgStale{
+    width:300px;
+    height:300px;
+    margin:auto;
+}
+.boxStyle{
+    width: 300px;
+    height:500px;
+    border-radius:10px;
+    overflow:hidden;
+    background-color: #74b39e;
+    margin-top: 20px;
+    transition: 0.3s;
+}
+.boxStyle:hover{
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.29);
+}
+
+.boxStyle p{
+    padding: 10px 10px;
+    height: 70px;
+    margin: 0;
+}
+
+.boxStyle h5{
+    padding: 10px 10px;
+}
+
+.buyBtn{
+    padding: 20px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.buyBtn div{
+    display: flex;
+}
+.boxStyle a{
+    text-decoration: none;
+    font-weight: 600;
+    color: #028b4e;
+    transition: 0.3s;
+}
+
+.boxStyle a:hover{
+    color: #cccccc;
+}
+
+.miniBtn{
+    width: 30px;
+    height: 30px;
+    background-color: #e6b301;
+    border: none;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.maxiBtn{
+    width: 115px;
+    height: 30px;
+    background-color: #f37b7b;
+    border: none;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    transition: 0.3s;
+    color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.13);
+    font-size: 19px;
+}
+.value{
+    width: 30px;
+    height: 30px;
+    background-color: #005e84;
+    border: none;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+}

@@ -1,0 +1,35 @@
+.navbar{
+    background-color: #009971;
+    list-style: none;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 70px;
+    z-index: 20;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.18);
+}
+.navbar a{
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+    font-size: 18px;
+}
+
+.navbar a:hover{
+    color: #3f3f3f;
+}
+
+.inHref{
+    background-color: #004f33;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.35);
+}
+.outHref{
+    background-color: transparent;
+    padding: 10px;
+    border-radius: 10px;
+}

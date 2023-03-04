@@ -1,0 +1,88 @@
+.form{
+    width: 400px;
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 0 0 30px rgba(100, 100, 100, 0.56);
+    background-color: #8b8b8b;
+}
+label{
+    color: #3f3f3f;
+}
+.form h1{
+    text-align: center;
+    color: #2c2c2c;
+}
+.inputBox{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    flex-direction: column;
+    position: relative;
+    margin: 10px 0;
+}
+.checked{
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+    margin: 20px 0;
+}
+.checked input{
+    width: 20px;
+    height: 20px;
+    margin:5px 15px ;
+}
+.checked span{
+    color: #ff9d9d;
+    font-size: 15px;
+    margin: 5px;
+}
+.inputBox input{
+    width: 95%;
+    height: 35px;
+    font-size: 17px;
+    margin-top: 5px;
+    border-radius: 10px;
+    background-color: transparent;
+    outline: none;
+    border: 1px solid #686868;
+    padding: 0 10px;
+}
+.inputBox span{
+    color: #ff9d9d;
+    font-size: 13px;
+    margin: 5px;
+}
+
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.btn button{
+    background-color: #009964;
+    width: 70px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    color: white;
+    box-shadow: 0 0 30px rgba(100, 100, 100, 0.56);
+    cursor: pointer;
+}
+.btn a{
+    text-decoration: none;
+    border: 1px solid #5a5a5a;
+    width: 70px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 30px rgba(100, 100, 100, 0.56);
+}
